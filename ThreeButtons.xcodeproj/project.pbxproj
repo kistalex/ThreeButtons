@@ -13,6 +13,8 @@
 		46342D142A54A41000D55C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46342D122A54A41000D55C8C /* Main.storyboard */; };
 		46342D162A54A41100D55C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46342D152A54A41100D55C8C /* Assets.xcassets */; };
 		46342D192A54A41100D55C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46342D172A54A41100D55C8C /* LaunchScreen.storyboard */; };
+		46342D212A54A6F500D55C8C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46342D202A54A6F500D55C8C /* CustomButton.swift */; };
+		46342D232A54B47700D55C8C /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46342D222A54B47700D55C8C /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		46342D152A54A41100D55C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46342D182A54A41100D55C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46342D1A2A54A41100D55C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46342D202A54A6F500D55C8C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		46342D222A54B47700D55C8C /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				46342D0C2A54A41000D55C8C /* AppDelegate.swift */,
 				46342D0E2A54A41000D55C8C /* SceneDelegate.swift */,
 				46342D102A54A41000D55C8C /* ViewController.swift */,
+				46342D202A54A6F500D55C8C /* CustomButton.swift */,
+				46342D222A54B47700D55C8C /* ModalViewController.swift */,
 				46342D122A54A41000D55C8C /* Main.storyboard */,
 				46342D152A54A41100D55C8C /* Assets.xcassets */,
 				46342D172A54A41100D55C8C /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46342D212A54A6F500D55C8C /* CustomButton.swift in Sources */,
+				46342D232A54B47700D55C8C /* ModalViewController.swift in Sources */,
 				46342D112A54A41000D55C8C /* ViewController.swift in Sources */,
 				46342D0D2A54A41000D55C8C /* AppDelegate.swift in Sources */,
 				46342D0F2A54A41000D55C8C /* SceneDelegate.swift in Sources */,
